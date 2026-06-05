@@ -497,24 +497,25 @@ h3 {
 
 .family-support-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .family-support-grid img {
   width: 100%;
-  min-height: 230px;
   border-radius: 28px;
   object-fit: cover;
   box-shadow: var(--shadow-soft);
 }
 
 .family-support-grid img:first-child {
-  aspect-ratio: 0.9;
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 9;
+  object-position: center;
 }
 
 .family-support-grid img:not(:first-child) {
-  aspect-ratio: 0.9;
+  aspect-ratio: 1.04;
 }
 
 .learning-copy {
