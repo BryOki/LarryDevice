@@ -387,6 +387,10 @@ h3 {
   line-height: 1.55;
 }
 
+.step-card p {
+  margin-bottom: 26px;
+}
+
 .plain-list {
   display: grid;
   gap: 5px;
@@ -396,7 +400,7 @@ h3 {
 .step-card img {
   width: 100%;
   aspect-ratio: 1.08;
-  margin-top: 26px;
+  margin-top: auto;
   object-fit: cover;
 }
 
